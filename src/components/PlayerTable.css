@@ -1,0 +1,78 @@
+.btn {
+    width: 50px;
+    padding: 4px 8px;
+    margin: 4px;
+    border-radius: 4px;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .btn2 {
+    width: 80px;
+    padding: 6px 10px;
+    margin: 6px;
+    border-radius: 4px;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .edit {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete:hover {
+    background-color: #c82333;
+  }
+  
+  .save {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .save:hover {
+    background-color: #218838;
+  }
+  
+  .cancel {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .cancel:hover {
+    background-color: #5a6268;
+  }
+  
+  .editable {
+    background-color: #f8e7a2; /* Highlight editable field */
+  }
+  
+  .sort-icon::before {
+    content: "\25B2 \25BC"; /* Up and down arrows */
+  }
+  
+  td {
+    text-align: center; /* This will center the content of all your table cells */
+  }
+  
+  /* Alternatively, you can target a specific class for the cell that contains the buttons */
+  .action-buttons {
+    text-align: center;
+  }
